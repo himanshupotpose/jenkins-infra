@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('PULL'){
             steps{
-                git branch: 'main', url: ' https://github.com/himanshupotpose/jenkins-infra.git '
+                git branch: 'main', url: 'https://github.com/himanshupotpose/jenkins-infra.git'
             }
         }
         stage('PLAN'){
